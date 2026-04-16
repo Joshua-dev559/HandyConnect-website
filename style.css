@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+nav {
+    background-color: #4d81e0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav h2 {
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: monospace;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+nav a:hover {
+    color: rgb(255, 98, 0);
+}
+
+.hero {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+    color: rgb(90, 90, 223);
+}
+
+.hero img {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    align-items: center; 
+}
+
+.container {
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.hero h1 {
+    color: blue;
+    font-family: monospace;
+}
+
+.hero p {
+    font-size: 16px;
+    color: rgb(53, 85, 227);
+    font-family: fantasy;
+    font-size: 18px;
+}
+
+.container h2 {
+    color: blue;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.container p {
+    color: rgb(34, 45, 207);
+    font-family: fantasy;
+    font-size: 18px;
+}
+
+.flex-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px 15px;
+    margin-top: 20px;
+}
+
+.flex-cards .card {
+    flex: 1 1 300px;
+}
+
+.flex-cards .card img {
+    width: 100%;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-top: 5px solid rgb(255, 85, 0);
+}
+
+footer {
+    background-color: #081020;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 10px 5px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+footer a:hover {
+    color: rgb(229, 81, 23);   
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .flex-cards {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+}
