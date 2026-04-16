@@ -60,23 +60,30 @@ nav a:hover {
 .hero h1 {
     color: blue;
     font-family: monospace;
+    margin-bottom: 20px;
 }
 
 .hero p {
-    font-size: 16px;
-    color: rgb(53, 85, 227);
+    color: rgb(13, 13, 14);
     font-family: fantasy;
     font-size: 18px;
+}
+
+.container h1 {
+    color: blue;
+    font-family: Cambria;
+    font-size: 30px;
 }
 
 .container h2 {
     color: blue;
     font-family: monospace;
     font-size: 25px;
+    margin-bottom: 15px;
 }
 
 .container p {
-    color: rgb(34, 45, 207);
+    color: rgb(13, 13, 14);
     font-family: fantasy;
     font-size: 18px;
 }
@@ -103,6 +110,45 @@ nav a:hover {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-top: 5px solid rgb(255, 85, 0);
+}
+
+.card h2 {
+    color: blue;
+    font-family: Cambria;
+    font-size: 22px;
+}
+
+.card h4 {
+    color: rgb(34, 45, 207);
+    font-family: Cambria;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.card p {
+    color: rgb(7, 3, 1);
+    font-family: fantasy;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: rgb(255, 85, 0);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.card a:hover {
+    background-color: rgb(70, 70, 241);
+}
+
+.card img {
+    border-radius: 10px;    
 }
 
 footer {
