@@ -35,7 +35,7 @@ To install the website, follow these steps;
 1. Clone the repository
 2. Open the project in your preferred code editor
 3. Run the project on your local machine
-4. View the website in your browser by opening the 'index.html' file
+4. View the website in your browser by opening the `index.html` file
 5. Use the navigation bar to scroll to different web pages
 
 ## Contributing
