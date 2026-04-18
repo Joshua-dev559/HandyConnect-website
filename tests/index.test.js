@@ -1,4 +1,4 @@
-const { extractData, isFormValid } = require('../index');
+const { extractData, isFormValid } = require('./index.js');
 describe("Contact Form Tests", () => {
     test ("should validate correct data", () => {
         const data = {
@@ -34,11 +34,11 @@ describe("Contact Form Tests", () => {
                 <textarea name ="message">Hello</textarea>
                 </form>
     `;
-    const form = document.getElementById ("contactForm");
+    const form = document.getElementById ("contact-form");
     const data = extractData (form);
     expect (data.name).toBe("Peter");
     expect (data.email).toBe("peter@email.com");
-    expect (data.service).toBe("Plumbing");
+    expect (data.service).toBe("plumbing");
     expect (data.message).toBe("Hello");
 });
 });

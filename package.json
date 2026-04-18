@@ -9,6 +9,9 @@
   "scripts": {
     "test": "jest"
   },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Joshua-dev559/HandyConnect-website.git"
@@ -21,6 +24,7 @@
   },
   "homepage": "https://github.com/Joshua-dev559/HandyConnect-website#readme",
   "devDependencies": {
-    "jest": "^30.3.0"
+    "jest": "^30.3.0",
+    "jest-environment-jsdom": "^30.3.0"
   }
 }
