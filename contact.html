@@ -20,30 +20,34 @@
     <div class="container-contact">
         <h1>Contact Us</h1>
         
-        <form>
-            <label>Name:</label>
-            <input type="text" placeholder="Your Name" required>
+       <form id="contactForm" action="https://formspree.io/f/xwvabbpl" method="POST">
+    
+    <label>Name:</label>
+    <input type="text" name="name" required>
 
-            <label>Email:</label>
-            <input type="email" placeholder="Your Email" required>
+    <label>Email:</label>
+    <input type="email" name="email" required>
 
-            <label>Phone:</label>
-            <input type="tel" placeholder="Your Phone number" required>
+    <label>Phone:</label>
+    <input type="tel" name="phone" required>
 
-            <label>Choose Service:</label>
-            <select required>
-                <option value="">--Select a Service--</option>
-                <option value="welding">Welding</option>
-                <option value="plumbing">Plumbing</option>
-                <option value="carpentry">Carpentry</option>
-            </select>
+    <label>Choose Service:</label>
+    <select name="service" required>
+        <option value="">--Select a Service--</option>
+        <option value="welding">Welding</option>
+        <option value="plumbing">Plumbing</option>
+        <option value="carpentry">Carpentry</option>
+    </select>
 
-            <label>Additional Information:</label>
-            <textarea placeholder="Please provide any additional information" required></textarea>
+    <label>Additional Information:</label>
+    <textarea name="message" required></textarea>
 
-            <button type="submit">Send Message</button>
-        </form>
+    <button type="submit">Send Message</button>
+</form>
     </div>
+ 
+
+     <script src="script.js"></script>
 
     <footer>
         <p>&copy; 2026 HandyConnect. All rights reserved.</p>
