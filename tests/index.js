@@ -36,4 +36,5 @@ if (typeof document !== "undefined") {
 module.exports = {
     extractData,
     isFormValid, 
-};
+}; 
+
